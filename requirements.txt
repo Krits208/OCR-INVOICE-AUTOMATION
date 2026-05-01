@@ -1,0 +1,56 @@
+shapely
+scikit-image
+imgaug
+pyclipper
+lmdb
+tqdm
+numpy<2  # opencv-python==4.6 needs numpy 1.x
+visualdl
+rapidfuzz
+opencv-python==4.6.0.66
+opencv-contrib-python==4.6.0.66
+cython
+lxml
+premailer
+openpyxl
+attrdict
+Polygon3
+lanms-neo==1.0.2
+PyMuPDF
+pyyaml 
+tensorboardX 
+anyconfig 
+munch
+scipy
+sortedcontainers 
+gevent
+gdown
+prefetch_generator
+opencv-python
+Pillow==9.5.0
+matplotlib
+pyclipper
+shapely
+lmdb
+tqdm
+gevent-websocket 
+flask 
+editdistance 
+scikit-image 
+imgaug
+numpy
+gradio
+paddlenlp
+
+# --- end-to-end pipeline (PaddleOCR + OpenCV + Gemini + Pydantic + FastAPI) ---
+paddleocr>=2.7.0
+paddlepaddle>=2.5.0
+opencv-python-headless<4.11  # paddleocr pulls headless; >=4.11 requires numpy 2
+tabulate  # used by src/gemini_extractor/formatter.py
+google-generativeai>=0.7.0
+pydantic>=2.0
+fastapi>=0.110
+uvicorn[standard]>=0.27
+python-multipart
+python-dotenv
+loguru
